@@ -1,5 +1,6 @@
 def main():
     user_name = input('\nHello, and welcome to the game. Prepare for an adventure!\nLoading game...\nPlease enter your name:\n')
+    user_name = user_name[1:] + user_name[0] + 'ay'
     print("\nHello " + user_name + "!")
     start_scene()
     return
